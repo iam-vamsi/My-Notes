@@ -7,3 +7,5 @@ Implementation
 Testing
 Deployment
 Maintainance
+
+STLC
