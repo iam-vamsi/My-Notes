@@ -1,3 +1,3 @@
 linux vs shell 
 
-linux is a kernal 
+linux is a kernel 
