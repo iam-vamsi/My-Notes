@@ -1,0 +1,30 @@
+Linux Implementations == Distributions == Flavours
+=======================
+RHEL --> Commercial
+IBM AIX
+Ubuntu
+Fedora
+Solaris
+Suse
+Android
+
+OpenSource and Enterprise
+
+AWS Linux 2023 AMI
+t3.micro/t2.micro
+
+Authentication
+===============
+1. What you know --> Username and Password
+2. What you have --> Username and token/OTP
+3. What you are --> Fingerprints, Retina, Palm, etc.
+
+PublicKey and PrivateKey
+
+Lock and Key
+Lock --> Public
+Key --> Private
+
+Server == IP(Public)
+
+ssh-keygen -f <file-name> ==> public key and private key
