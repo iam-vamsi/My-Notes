@@ -1,0 +1,13 @@
+Redhat Enterprise Linux == Centos == Amazon Enterprise Linux == Fedora == AlmaLinux
+
+Kernel == Brain of OS == C language
+User Interface
+
+Linus torvalds == Inventor of Linux
+Mac -> Hardware locking --> you are buying both hardware and Mac OS
+
+Servers == Unix
+Laptops == IBM BIOS
+
+Linux -> C language == Kernel
+OS == Kernel + User Interface == Open Source
