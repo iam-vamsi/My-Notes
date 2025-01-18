@@ -28,3 +28,37 @@ Key --> Private
 Server == IP(Public)
 
 ssh-keygen -f <file-name> ==> public key and private key
+
+
+Esc mode is default
+press : to enter into command mode
+
+command mode
+----------------
+:q --> quit
+:wq --> write and quit
+:q! --> force quit without changes
+:/<word-to-find> --> search the word from top to bottom
+:?<word-to-find> --> search the word from bottom to top
+:noh --> no highlight
+:set nu --> set line numbers in the file
+:set nonu --> dont set line numbers
+:28 d --> deleted 28th line
+:3s/word-to-find/word-to-replace --> replaces first occurenece in that line
+:3s/word-to-find/word-to-replace/g --> replaces all occureneces in that line
+:%s/word-to-find/word-to-replace/g --> replaces all occureneces in file
+:%d --> delete entire content
+
+ESC Mode
+---------------
+u --> undo
+yy --> copy the line
+p --> paste
+10p --> paste the lines 10 times
+dd --> cut the line
+gg --> takes to top
+shift+g --> takes to bottom
+
+Insert Mode
+---------------
+press i
