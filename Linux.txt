@@ -62,3 +62,23 @@ shift+g --> takes to bottom
 Insert Mode
 ---------------
 press i
+
+
+
+Linux Administration
+-------------------------
+User management
+
+create user, add user to any group
+
+useradd <user-name> --> creates user and group with same name
+id <user-name> --> displays user information
+/etc/passwd --> contains user information
+/etc/group --> contains group information
+in linux, a user must have only one primary group and atleast secondary group
+passwd <user-name> --> sets password to the user
+
+groupadd <group-name> --> creates group
+
+usermod -g devops ramesh --> adds ramesh to devops group
+usermod -aG testing ramesh --> adds testing as secondary group to ramesh
