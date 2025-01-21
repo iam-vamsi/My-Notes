@@ -82,3 +82,21 @@ groupadd <group-name> --> creates group
 
 usermod -g devops ramesh --> adds ramesh to devops group
 usermod -aG testing ramesh --> adds testing as secondary group to ramesh
+
+
+
+CRUD --> 
+
+userdel <user-name> 
+remove from project,now remove from company
+
+remove him from devops group 
+
+Linux follows key based authentication by default
+
+/etc/ssh/sshd_config --> edit the SSH related configuration
+/etc/ssh/sshd_config --> any mistakes in this file, we cant ssh into server
+systemctl restart sshd
+sshd -t --> check config is correct or not
+
+key based authentication --> ramesh should generate his public key and private key...
