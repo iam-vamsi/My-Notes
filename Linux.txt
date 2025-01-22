@@ -66,7 +66,7 @@ press i
 
 
 Linux Administration
--------------------------
+========================
 User management
 
 create user, add user to any group
@@ -85,7 +85,8 @@ usermod -aG testing ramesh --> adds testing as secondary group to ramesh
 
 
 
-CRUD --> 
+CRUD
+============
 
 userdel <user-name> 
 remove from project,now remove from company
@@ -104,7 +105,7 @@ key based authentication --> ramesh should generate his public key and private k
 
 
 Permissions
------------------
+===============
 R -> 4
 W -> 2
 X -> 1
@@ -145,3 +146,19 @@ permissions can be max 600
 ssh -i suresh.pem suresh@IP
 
 /home/suresh --> authorized_keys
+
+
+
+Package management
+====================
+windows laptops are cofigured with URL to pull the updates
+
+usually one package depends on other packages...
+
+yum install <package-name>
+dnf install <package-name> --> apt-get is for ubuntu
+
+dnf remove <package-name>
+
+dnf list installed -> already installed inside linux
+dnf list available --> all - installed
