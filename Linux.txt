@@ -100,3 +100,48 @@ systemctl restart sshd
 sshd -t --> check config is correct or not
 
 key based authentication --> ramesh should generate his public key and private key...
+
+
+
+Permissions
+-----------------
+R -> 4
+W -> 2
+X -> 1
+
+- 		rw- 					r-- 			r-- 	ec2-user ec2-user
+file    <owner-who-created>     <group>			<others>
+
+ec2-user --> Owner --> Read and Write
+ec2-user --> Group --> Only Read
+Others --> Other than and owner and group --> Only read
+
+Who can change permissions of file or folder --> owners or root user
+
+owner/user --> u
+group --> g
+others --> o
+
+chmod o+w devsecops.txt
+chmod o-r suresh.txt
+
+chmod ugo+rwx suresh.txt
+
+chmod 740 suresh.txt
+chmod 777 suresh.txt
+chmod 755 suresh.txt
+
+
+admin should ask for suresh public key
+root user can create a folder .ssh in /home/suresh
+ownership of the folder should be on suresh
+chown -R suresh:suresh .ssh
+chown <user>:<group> file/folder
+
+inside .ssh we need to create a file called authorized_keys
+this file owner should be suresh
+permissions can be max 600
+
+ssh -i suresh.pem suresh@IP
+
+/home/suresh --> authorized_keys
