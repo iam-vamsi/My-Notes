@@ -162,3 +162,29 @@ dnf remove <package-name>
 
 dnf list installed -> already installed inside linux
 dnf list available --> all - installed
+
+
+Service Management
+====================
+ssh -i <private-key> suresh@IP
+
+request goes to IP, checks SSH is running on port number 22...
+
+systemctl status sshd
+
+http service --> nginx or apache
+
+dnf install nginx -y
+
+start nginx service --> systemctl start nginx
+
+http://IP:80
+
+systemctl stop nginx
+systemctl restart nginx --> restart
+
+systemctl enable nginx --> services will start automatically
+
+systemctl start git --> invalid
+
+few packages are just utilities, they are command line packages. Few packages are service related, we can start/stop/restart/enable
