@@ -1,0 +1,13 @@
+VPN forward proxy
+==========
+Server is not aware that client is using VPN. Client is aware of VPN
+Traffic restrict, traffic monitoring
+Geolocation hiding
+Anonymous client  identity
+Access private network/files
+
+Reverse proxy
+===========
+Client is not aware of proxy. Server is aware of proxy.
+Backend applications are behind reverse proxy servers for security and queing
+Cache servers
