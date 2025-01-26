@@ -11,3 +11,12 @@ Reverse proxy
 Client is not aware of proxy. Server is aware of proxy.
 Backend applications are behind reverse proxy servers for security and queing
 Cache servers
+
+Record types
+=============
+A --> points to IP address
+CNAME --> points to another domain
+MX --> mail records (info@joindevops.com)
+TXT --> Domain ownership validaton purpose
+NS --> nameservers
+SOA --> who is the authority of this domain
