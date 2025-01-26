@@ -20,3 +20,18 @@ MX --> mail records (info@joindevops.com)
 TXT --> Domain ownership validaton purpose
 NS --> nameservers
 SOA --> who is the authority of this domain
+
+
+
+inode, symlink/softlink and hardlink
+
+what is inode?
+
+inode stores the file type(file or folder), permissions, ownership, file size, timestamp, disk location(memory location)
+
+lrwxrwxrwx  1 root root    11 Dec 26 03:10 DbConfig1.js -> DbConfig.js
+l represents link file
+
+symlink is like shortcut it points to the original file. symlink inode and actual file inode is different. symlink breaks when actual file is deleted. symlink can be created to folders/directories
+
+hardlink inode is same as actual file. hardlink is useful for backup of the file. if original file is deleted hardlink remains same. we can't create hardlinks to folders/directories
