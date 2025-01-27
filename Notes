@@ -76,3 +76,29 @@ native linux scripting --> Linux/Shell commands
 
 
 Linux Server --> I need to fetch some info from AWS Cloud --> Python
+
+
+Git --> Concept
+GitHub
+Gitlab
+Bitbucket
+azure repos
+AWS Code commit
+
+git repos --> Storing code
+
+1. creation of repo
+2. clone repo to our laptop
+git clone https://github.com/daws-78s/shell-script/blob/main/06-array.sh
+3. we develop code
+4. select some editor. vscode editor. visual studio code editor. free editor
+5. add code to staging area
+
+git add <file-name>
+git add . --> all files will be added to staging area
+
+6. commit to local repo
+
+git commit -m "message"
+
+7. git push oigin main
