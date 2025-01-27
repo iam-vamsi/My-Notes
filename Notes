@@ -66,3 +66,13 @@ backend.daws82s.onine --> 404 --> NOTFOUND --> Client side error
 500 --> Internal Server Error --> Server side error
 502 --> Bad Gateway --> Frontend not able to connect backend
 503 --> Service temporarily unavailable
+
+
+Shell Scripting
+=================
+if you keep all your commands in a single file and execute that file --> Shell Scripting
+
+native linux scripting --> Linux/Shell commands
+
+
+Linux Server --> I need to fetch some info from AWS Cloud --> Python
