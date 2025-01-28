@@ -102,3 +102,14 @@ git add . --> all files will be added to staging area
 git commit -m "message"
 
 7. git push oigin main
+
+
+Version Control
+================
+History of changes
+Need to maintain multiple versions --> I need to track the changes --> Why I changed? When I changed? Who changed?
+
+20-DEC-2024 We deployed app in prodction
+21-DEC-2024 there is issue
+
+19-DEC-2024 --> restore to this version
