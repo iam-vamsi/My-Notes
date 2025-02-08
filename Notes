@@ -120,3 +120,14 @@ Need to maintain multiple versions --> I need to track the changes --> Why I cha
 3. conditions
 4. loops
 5. functions
+
+
+integer, float, boolean, string, array, arraylist, map, etc..
+
+integer --> number
+float --> decimal number
+boolean --> true/false
+string --> text
+array --> (devops, aws, docker)
+arraylist --> [devops, aws, docker]
+map --> name: devops, duration: 120hrs
