@@ -131,3 +131,13 @@ string --> text
 array --> (devops, aws, docker)
 arraylist --> [devops, aws, docker]
 map --> name: devops, duration: 120hrs
+
+
+Disadvantages of shell
+======================
+Error Handling
+Not idempotent
+Homogenous --> only works for a particular distro
+Not scalable to many servers
+Password security
+syntax is not easy
