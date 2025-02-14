@@ -171,3 +171,20 @@ resource "type-of-resource" "name-of-resource" {
 resource "aws_instance" "this" {
 
 }
+
+
+VPC --> CIDR
+Subnets
+	public
+	private
+	database
+IGW
+Route table
+	Public
+	Private
+	Database
+NAT
+Routes
+	Public --> 0.0.0.0/0 --> IGW
+	Private --> 0.0.0.0/0 --> NAT
+	Database --> 0.0.0.0/0 --> NAT
