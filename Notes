@@ -188,3 +188,8 @@ Routes
 	Public --> 0.0.0.0/0 --> IGW
 	Private --> 0.0.0.0/0 --> NAT
 	Database --> 0.0.0.0/0 --> NAT
+
+
+private, datasubnet --> no public IP
+
+NAT --> only outgoing traffic
